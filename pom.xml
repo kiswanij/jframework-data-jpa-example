@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.jalalkiswani</groupId> 
-	<version>4.0.4</version>
-	<artifactId>smart-cloud-data-jpa-example</artifactId>
+	<version>6.0.0</version>
+	<artifactId>jk-framework-data-jpa-example</artifactId>
 	<dependencies>
 		<dependency>
 			<groupId>com.jalalkiswani</groupId>
-			<artifactId>smart-cloud-data</artifactId>
-			<version>4.0.8</version>
+			<artifactId>jk-framework-data</artifactId>
+			<version>6.0.0</version>
 		</dependency>
 	</dependencies>
 	<build>

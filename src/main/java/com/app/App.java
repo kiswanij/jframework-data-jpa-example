@@ -2,16 +2,16 @@ package com.app;
 
 import java.util.List;
 
-import com.jk.db.dataaccess.orm.JKObjectDataAccess;
-import com.jk.db.datasource.JKDataAccessFactory;
-import com.jk.util.JK;
+import com.jk.core.util.JK;
+import com.jk.data.dataaccess.JKDataAccessFactory;
+import com.jk.data.dataaccess.orm.JKObjectDataAccess;
 
 public class App {
 
 	private static Integer id;
 
 	public static void main(String[] args) {
-		JKObjectDataAccess da = JKDataAccessFactory.getObjectDataAccess();
+		JKObjectDataAccess da = JKDataAccessFactory.getObjectDataAccessService();
 
 		insert(da);
 		find(da);
