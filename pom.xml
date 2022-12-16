@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.jalalkiswani</groupId>
 		<artifactId>jk-app-webstack</artifactId>
-		<version>7.0.0-M4</version>
+		<version>7.0.0-M5</version>
 	</parent>
 	<artifactId>jk-framework-data-jpa-example</artifactId>
 </project>
