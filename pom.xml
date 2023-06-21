@@ -5,7 +5,20 @@
 	<parent>
 		<groupId>com.jalalkiswani</groupId>
 		<artifactId>jk-app-webstack</artifactId>
-		<version>7.0.0-M7</version>
+		<version>7.0.0-SNAPSHOT</version>
 	</parent>
 	<artifactId>jk-framework-data-jpa-example</artifactId>
+	
+	<repositories>
+		<repository>
+			<id>oss.sonatype.org-snapshot</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>	
 </project>
