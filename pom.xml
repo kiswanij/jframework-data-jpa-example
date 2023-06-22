@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.jalalkiswani</groupId>
-		<artifactId>jk-app-webstack</artifactId>
+		<artifactId>j-app-webstack</artifactId>
 		<version>7.0.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>jk-framework-data-jpa-example</artifactId>
+	<artifactId>j-framework-data-jpa-example</artifactId>
 	
 	<repositories>
 		<repository>
