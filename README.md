@@ -1,8 +1,8 @@
-# JKFramework Data JPA Example
+# JFramework Data JPA Example
 _Last updated: 2022-11-26_
 
 
-This repository contains a _JKFramework-Data_ example which uses JPA Object Relational Mapping (ORM) to persist and retrieve data from locally created H2 database.
+This repository contains a _JFramework-Data_ example which uses JPA Object Relational Mapping (ORM) to persist and retrieve data from locally created H2 database.
 
 ## Prerequisites:
 - JDK 17+ Installed
